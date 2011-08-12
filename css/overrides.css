@@ -1,0 +1,154 @@
+body{color: #333; font:14px/1.5 Arial,'Liberation Sans',FreeSans,sans-serif;background-color:#323232}
+#site-name a span{color: #222;
+    font-size: 34px;
+    font-weight: normal;
+    letter-spacing: 1px;
+text-shadow: -1px 1px #eee, -2px 2px #999;
+
+    text-transform: uppercase;}
+ul li.leaf{list-style: circle url();}
+
+/* LINKS */
+a,a:link,a:visited,a:hover,a:active {text-decoration:underline}
+a:link, a.active:link {color:#900}
+a:visited, a.active:visited {color:#639}
+a:hover,a:active, a.active:hover, a.active:hover {color:#084C8D}
+.unstyled a,.unstyled a:link,.unstyled a:visited,.unstyled a:hover,.unstyled a:active {color: #555;text-decoration:none}
+
+/* OSU Masthead */
+#masthead {height: 30px; line-height: 30px; font-size: .8571em; background: #222 url('img/bg-black.png') repeat;}
+#masthead .mast-wrapper{width: 940px; margin: 0 auto;}
+#masthead a {color: #eee; text-decoration: none;}
+#masthead #osuLink {position: relative; margin: 0 2px 0 0;float: left; width: 288px; height: 30px;}
+#masthead #osuNav {display: inline;float: left; width: 650px; color: #555; height: 30px;}
+#masthead #osuNav ul {margin-bottom: 0;float: right; margin-top: 0;}
+#masthead #osuNav ul li {display: inline; list-style: none; padding: 0 .4em; margin: 0;}
+#masthead #osuNav form, #osuNav div {display: inline;}
+#masthead #osuNav label {display:none;}
+#masthead #osuNav form input[type=text]{padding: 0;}
+#masthead #osuNav button {color: #555;border:1px solid;border-color:#ccc #999 #999 #ccc;height: 22px;padding:0 2px; margin-left: 3px;background-color:#eee; line-height: 18px;}
+
+
+/* Header */
+#header{background: #eee url('img/bg-content.png') repeat; border-top: 1px solid #fff; border-bottom: 1px solid #ddd; position: relative;}
+#header a{color: #333; text-decoration: none;}
+#header #logo{margin: 25px 0 0 0;}
+#header #logo img{height: 80px;}
+#header #site-name{font-size: 2.75em;}
+#header #name-and-slogan{margin-top: 22px;}
+
+
+/* Primary Navigation */
+#main-menu{font-size: 1.1429em; margin: 10px 0 0 0; position: relative; z-index: 200; height: 30px;}
+#main-menu a{color: #333; text-decoration: none; display: block; height: 30px; line-height: 30px; padding: 0 10px; border-radius: 0; background: 0; font-weight: normal; margin-bottom: -1px;}
+#main-menu ul#main-menu-links{list-style: none; position: relative; padding: 0; margin: 0; float: right;}
+#main-menu ul#main-menu-links li{float: left; margin: 0 0 0 2px; position: relative;}
+#main-menu li.active a,
+#main-menu li.active-trail a{background: #fff; color: #333; margin: 0 -1px -1px -1px; line-height: 29px; border: 1px solid #ddd; border-bottom: 0;}
+#main-menu li a:hover,
+#main-menu li a:active,
+#main-menu li a:focus{background: #bbb; color: #fff; margin: 0 0 -1px 0; line-height: 29px; border: 0;}
+
+
+/* Content */
+#content{}
+#content h1#page-title{margin-top: 10px;}
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6{color: #333;}
+
+
+/* Sidebar */
+.sidebar .block{
+	border: none; 
+	background: #eee url('img/bg-content.png') repeat;
+	border-radius: 3px;
+	border: 3px double #ccc;
+	padding: 12px 17px;
+}
+.sidebar h2{border-color: #ddd; border-bottom: 1px solid #ddd; margin: 0; padding: 0 0 4px 0; font-weight: bold;}
+.sidebar .block .content{margin-top: 0;}
+.sidebar .block .content ul{padding-left: 0;}
+.sidebar .block .content ul li.leaf{list-style: none;}
+.sidebar .block .content ul li.leaf,
+.sidebar .block .content ul li.collapsed,
+.sidebar .block .content ul li.expanded{border-top: 1px solid #fff; border-bottom: 1px solid #ddd; padding: 0; padding-right: 0;}
+
+.sidebar .block .content ul li.collapsed a,
+.sidebar .block .content ul li.expanded a{border-bottom: 1px solid #ddd;}
+.sidebar .block .content ul li.collapsed ul.menu a,
+.sidebar .block .content ul li.expanded ul.menu a{border-bottom: 0;}
+.sidebar .block .content ul li.expanded ul.menu{padding: 0;}
+.sidebar .block .content ul li.expanded ul.menu li{padding-left: 20px; font-size: 12px;}
+
+.sidebar .block .content ul li.first{}
+.sidebar .block .content ul li.last,
+.sidebar .block .content ul li.last a{border-bottom: 0;}
+.sidebar .block .content ul li.leaf a,
+.sidebar .block .content ul li.collapsed a,
+.sidebar .block .content ul li.expanded a{display: block; padding: 4px 0;}
+.sidebar .block .content ul li.leaf a.active-trail{color: #333;}
+
+/* Triptych */
+#triptych-wrapper{background: #eee url('img/bg-content.png') repeat; border-top: 1px solid #ddd;}
+#triptych h2{text-align: left;}
+
+#main-wrapper {background-color:#fff}
+/* Footer */
+#footer-wrapper{background: #323232 url('img/bg-black.png') repeat-x; color: #717171;}
+#footer-wrapper .block{border: 0; margin: 0; padding: 0;}
+#footer-wrapper .block h1, #footer-wrapper .block h2, #footer-wrapper .block h3, #footer-wrapper .block h4, #footer-wrapper .block h5, #footer-wrapper .block h6{margin-top: 0;}
+#footer-wrapper #footer{margin-top: 30px;;}
+#footer-wrapper #footer #copyright{padding-top: 30px;}
+#footer-wrapper #footer #copyright #ehe-logo{float: left; margin-right: 30px;}
+#footer-wrapper #footer #copyright p{float: right; margin: 15px 50px 0 0;}
+#footer-wrapper #footer #copyright p a{color: #999;}
+
+
+div.clear{height: 0; clear: both; overflow: hidden; padding: 0; margin: 0;}
+
+
+/* positioning */
+img.border {margin: 5px 10px; padding: 4px; border: #ccc solid 1px}
+
+.aligncenter,div.aligncenter{display:block;margin-left:auto;margin-right:auto;}
+.alignleft{float:left;}
+.alignright{float:right;}
+
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+
+.caption{border:1px solid #ddd;text-align:center;background-color:#f3f3f3;padding-top:4px;margin:10px;/* optional rounded corners for browsers that support it */-moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}
+.caption img{margin:0;padding:0;border:0 none;}
+.caption p.caption-text{padding:0 4px 5px;margin:0;font-size: 11px; line-height: 1.5em;}
+
+
+/* CSS 3 */
+#header h1#logo{
+	text-shadow: 0 0 0 transparent, 2px 0 0 #fff;
+}
+
+#main-menu li.active a,
+#main-menu li.active-trail a,
+#main-menu li a:hover,
+#main-menu li a:active,
+#main-menu li a:focus{
+	border-radius: 3px 3px 0 0;
+}
+
+#header a,
+#main-menu a,
+.sidebar .block .content ul li.leaf a{
+	text-shadow: 0 0 0 transparent, 0 1px 0px #fff;
+}
+#main-menu li a:hover,
+#main-menu li a:active,
+#main-menu li a:focus{text-shadow: 0 0 0 transparent, 0 1px 1px #000;}
+#masthead,
+#footer{
+	text-shadow: 0 0 0 transparent, 0 -1px 0 #222;
+}
